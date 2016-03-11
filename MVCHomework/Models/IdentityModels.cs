@@ -29,5 +29,7 @@ namespace MVCHomework.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<MVCHomework.Models.ApplicationUser> ApplicationUsers { get; set; }
     }
 }
